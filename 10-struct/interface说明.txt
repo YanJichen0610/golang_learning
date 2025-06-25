@@ -1,0 +1,13 @@
+interface 接口
+万能通用类型 -> interface()
+    -> 空接口
+    -> int，float，string，bool，array，slice，map，struct... （均实现了interface接口）
+    -> 就可以使用interface{} 来接收任意类型的参数
+
+
+变量内部构造（变量结构）
+变量 - type (static type, concrete type 二选一)
+        - static type : int，string ...
+        - concrete type : interface所指向的数据类型，系统能看见的数据类型
+
+    - value

@@ -1,0 +1,6 @@
+reflect 包
+func ValueOf(i interface{}) Value
+ValueOf用于获取输入参数接口中数据的值，如果接口为空则返回0
+
+func TypeOf(i interface{}) Type
+// TypeOf用来动态获取输入参数接口中的值的类型，如果接口为空则返回nil
